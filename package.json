@@ -1,0 +1,20 @@
+{
+  "name": "ts-shuffle",
+  "version": "0.0.1",
+  "description": "A simple typescript library for shuffling items",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nerdomaly",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.4"
+  }
+}
